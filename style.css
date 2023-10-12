@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-image: url(./img/head_fon.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.child-container{
+    width: 90%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 12px 24px;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+}
+i{
+    color: #fff;
+    padding: 10px;
+}
+.block{
+    width: 800px;
+    margin: 0px auto;
+    text-align: center ;
+}
+.head-title{
+    text-transform: uppercase;
+    font-size: 90px;
+    color: #fff;
+}
+.head-text{
+    text-transform: uppercase;
+    color: blue;
+    letter-spacing: 10px;
+    word-spacing: 12px;
+    padding-bottom: 50px;
+}
+.div span{
+    text-align: center;
+}
